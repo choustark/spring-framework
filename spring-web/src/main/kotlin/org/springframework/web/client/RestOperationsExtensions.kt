@@ -22,6 +22,7 @@ import org.springframework.http.HttpMethod
 import org.springframework.http.RequestEntity
 import org.springframework.http.ResponseEntity
 import java.net.URI
+import kotlin.jvm.Throws
 
 /**
  * Extension for [RestOperations.getForObject] providing a `getForObject<Foo>(...)`
