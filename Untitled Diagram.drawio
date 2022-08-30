@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T14:58:54.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WvVuCiOj3WBr5J5NV5WD" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T15:15:53.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LK8K8eXjpKd6K31ccUOV" version="20.2.7" type="github">
   <diagram id="TegdglvorsQ1xGJPAm7N" name="Page-1">
     <mxGraphModel dx="942" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="k0R_6Jwa_f2LtwrwoXMr-1" value="&lt;b&gt;A Framworke&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="260" y="185" width="390" height="220" as="geometry" />
+          <mxGeometry x="280" y="185" width="390" height="220" as="geometry" />
         </mxCell>
         <mxCell id="k0R_6Jwa_f2LtwrwoXMr-2" value="&lt;b&gt;Medata&lt;/b&gt;&lt;br&gt;&lt;br&gt;元数据指的是描述数据的数据，列如在java中可以是 .xml、.properties、.txt等配置文件，注解，java code。对应复杂的javaBean 其中还包括依赖关系" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="700" y="235" width="190" height="110" as="geometry" />
@@ -43,8 +43,8 @@
             <mxPoint x="450" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-22" value="通过框架来获取Bean&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#CCFF99;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="100" y="280" width="140" height="30" as="geometry" />
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-22" value="通过注入框架来获取Bean&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#CCFF99;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k0R_6Jwa_f2LtwrwoXMr-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;endArrow=none;" edge="1" parent="1" source="k0R_6Jwa_f2LtwrwoXMr-6" target="k0R_6Jwa_f2LtwrwoXMr-22">
           <mxGeometry relative="1" as="geometry">
