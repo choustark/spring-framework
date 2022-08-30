@@ -1,25 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T14:26:44.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UHd9f6Xuhf2CBjXSthq9" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T14:52:27.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Xkl8mVzjWJ6k_UMvMal-" version="20.2.7" type="github">
   <diagram id="TegdglvorsQ1xGJPAm7N" name="Page-1">
     <mxGraphModel dx="942" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-1" value="&lt;b&gt;A Framworke&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="250" y="200" width="310" height="320" as="geometry" />
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-1" value="&lt;b&gt;A Framworke&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="390" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-2" value="&lt;b&gt;Medata&lt;/b&gt;&lt;br&gt;&lt;br&gt;元数据指的是描述数据的数据，列如在java中可以是 .xml、.properties、.txt等配置文件，注解，java code。" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="610" y="230" width="190" height="110" as="geometry" />
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-2" value="&lt;b&gt;Medata&lt;/b&gt;&lt;br&gt;&lt;br&gt;元数据指的是描述数据的数据，列如在java中可以是 .xml、.properties、.txt等配置文件，注解，java code。对应复杂的javaBean 其中还包括依赖关系" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;labelBackgroundColor=none;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-4" value="&lt;b&gt;Parser&lt;/b&gt;&lt;br&gt;&lt;br&gt;通过解析配置文件中的元数据来" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="420" y="255" width="120" height="75" as="geometry" />
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-4" value="&lt;b&gt;Parser&lt;/b&gt;&lt;br&gt;解析元数据，获取描述对象的数据" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-6" value="ActorName" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="60" y="315" width="30" height="60" as="geometry" />
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-6" value="业务系统" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k0R_6Jwa_f2LtwrwoXMr-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="k0R_6Jwa_f2LtwrwoXMr-2" target="k0R_6Jwa_f2LtwrwoXMr-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="320" as="sourcePoint" />
             <mxPoint x="620" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-10" value="&lt;b&gt;Container(Map Cache)&lt;/b&gt;&lt;br&gt;框架中的容器，一个map缓存。" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="204.69" y="350" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.675;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="k0R_6Jwa_f2LtwrwoXMr-4" target="k0R_6Jwa_f2LtwrwoXMr-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="359.9949999999999" y="317.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-19" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 12px; text-align: justify;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Instantiated&lt;/b&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;在java中通过反射实例化对象&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF9933;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="204.69" y="290" width="325.31" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.317;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k0R_6Jwa_f2LtwrwoXMr-19" target="k0R_6Jwa_f2LtwrwoXMr-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="450" as="sourcePoint" />
+            <mxPoint x="350" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
