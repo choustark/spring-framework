@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T14:11:29.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TL-8GwpAbrhq1mbgygS7" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T14:16:47.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bIGOHxMMcTHx1Oso7Hr9" version="20.2.7" type="github">
   <diagram id="TegdglvorsQ1xGJPAm7N" name="Page-1">
     <mxGraphModel dx="942" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="k0R_6Jwa_f2LtwrwoXMr-1" value="&lt;b&gt;A Framworke&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="240" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-2" value="&lt;b&gt;Medata&lt;/b&gt;&lt;br&gt;&lt;br&gt;元数据指的是描述数据的数据，列如在java中指的是" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="600" y="250" width="190" height="110" as="geometry" />
+        <mxCell id="k0R_6Jwa_f2LtwrwoXMr-2" value="&lt;b&gt;Medata&lt;/b&gt;&lt;br&gt;&lt;br&gt;元数据指的是描述数据的数据，列如在java中可以是 .xml、.properties、.txt等配置文件，注解，java code。" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="190" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
