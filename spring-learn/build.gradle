@@ -5,6 +5,10 @@ plugins {
 group 'com.chou'
 version '5.3.22'
 
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
 repositories {
     mavenCentral()
 }
